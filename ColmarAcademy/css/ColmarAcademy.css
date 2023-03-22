@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #989898;
+}
+
+/* Common Font Styles */
+h1 {
+    font-size: 30px bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #4f4f4f;
+}
+
+.stickNav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    padding-left: 24px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.startHereButton {
+    background-color: #515151;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 60%;
+}
+
+.learnSomething {
+    display: flex;
+    background-color: #c4c2c2;
+    align-items: center;
+}
+
+.learnSomething > div {
+    margin: 32px 0px 32px 24px;
+    border: 1px solid red;
+}
+
+
+/* When width is 60%, the div margin is screws up. See red border line. */
+.learnSomething img {
+    display: flex;
+    width: 60%;
+}
+
+.keepPracticing {
+    display: flex;
+    height: auto;
+}
+
+.keepPracticing>div {
+    border: 1px solid red;
+}
+
+.keepPracticingImage img {
+    display: flex;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.keepPracticingPara {
+    width: 60%;
+    padding: 0px 24px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+}
+
+.keepPracticingImageSideMain {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+.keepPracticingImageSide1 img {
+    width: 35%;
+    margin-top: 32px;
+}
+
+#orientDate {}
+
+.keepPracticingImageSide2 img {
+    width: 35%;
+}
+
+.keepPracticingImageSide3 img {
+    width: 35%;
+}
+
+.startLearning {
+    text-align: center;
+    height: auto;
+    background-color: #c4c2c2;
+}
+
+.startLearningImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.startLearningImages img {
+    width: 400px;
+    padding: 32px;
+}
+
+.thesisExhibits {
+    display: flex;
+}
+
+.thesisExhibits > div {
+    margin: 32px 0px 32px 24px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.thesisExhibitsPara {
+    width: 60%;
+}
+
+.thesisExhibitsSide1 img {
+    width: 50%;
+}
+
+.thesisExhibitsSide2 img {
+    width: 50%;
+}
